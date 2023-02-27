@@ -24,26 +24,56 @@
     align-items: center;
 }
 
-.header-logo {
-    font-size: 24px;
-    font-weight: bolder;
-    color: #f9faf8;    
+.header-logo > img {
+    width: 180px;
+    height: auto;
 }
+
 .header-links > ul {
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 28px;
 }
 /*style of links*/
 .header-links > ul > li {
     list-style-type: none;
+    padding-right: 28px;
 }
 
 .header-links > ul > li > a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/*HOUSES OF HOGWARTS*/
+
+.hufflepuff:hover {
+    color: yellow;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.gryffindor:hover {
+    font-weight: bolder;
+    color: red;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.ravenclaws:hover {
+    color: blue;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.slytherins:hover {
+    color: green;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: italic;
 }
 
 /*hero-text*/
@@ -85,6 +115,10 @@
     font-size: medium;
     font-weight: bolder;
 }
+.signup-button:hover {
+    cursor:pointer;
+    background-color: #5794f5;
+}
 
 .herot-image {
     display: flex;
@@ -93,6 +127,12 @@
     align-items: center;
     justify-content: center;
     color: white;
+    border-radius: 50px;
+}
+
+.herot-image > img {
+    width: 570px;
+    border-radius: 50px;
 }
 
 /*ran-inf*/
@@ -122,10 +162,9 @@
     gap: 5px;
 }
 
-.img-box > div {
-    border: solid 4px #3882f6;
-    height: 180px;
-    width: 180px;
+.img-box > img {
+    border: solid 4px #b9bdc2;
+    height: 180px ;
     border-radius: 20px;
 
 }
